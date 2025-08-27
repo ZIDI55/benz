@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zidi Apparel - Luxury Clothing Brand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #222;
+        }
+        header {
+            background: #111;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        nav {
+            background: #222;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #e0b973;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h2 {
+            border-bottom: 2px solid #e0b973;
+            display: inline-block;
+            margin-bottom: 1rem;
+            padding-bottom: 0.3rem;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .product-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            width: 260px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .product-card:hover {
+            box-shadow: 0 6px 24px rgba(224,185,115,0.15);
+        }
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .product-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        .product-price {
+            color: #e0b973;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .product-desc {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        .buy-btn {
+            background: #e0b973;
+            color: #fff;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .buy-btn:hover {
+            background: #cfa44b;
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zidi Apparel</h1>
+        <p>Luxury. Style. Distinction.</p>
+    </header>
+    <nav>
+        <a href="#men">Men</a>
+        <a href="#women">Women</a>
+        <a href="#accessories">Accessories</a>
+    </nav>
+    <div class="container" id="men">
+        <h2>Men's Collection</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Men's Silk Shirt">
+                <div class="product-name">Silk Dress Shirt</div>
+                <div class="product-price">$320</div>
+                <div class="product-desc">Premium silk shirt with tailored fit and gold-accented buttons.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80" alt="Men's Blazer">
+                <div class="product-name">Velvet Blazer</div>
+                <div class="product-price">$540</div>
+                <div class="product-desc">Luxurious velvet blazer, perfect for formal occasions.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Men's Trousers">
+                <div class="product-name">Tailored Wool Trousers</div>
+                <div class="product-price">$260</div>
+                <div class="product-desc">Classic wool trousers with a modern, slim fit.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="women">
+        <h2>Women's Collection</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Women's Dress">
+                <div class="product-name">Silk Evening Gown</div>
+                <div class="product-price">$890</div>
+                <div class="product-desc">Elegant silk gown with hand-embroidered details.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Women's Blouse">
+                <div class="product-name">Chiffon Blouse</div>
+                <div class="product-price">$210</div>
+                <div class="product-desc">Lightweight chiffon blouse with pearl buttons.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1469398715555-76331a6c7fa0?auto=format&fit=crop&w=400&q=80" alt="Women's Skirt">
+                <div class="product-name">Pleated Midi Skirt</div>
+                <div class="product-price">$340</div>
+                <div class="product-desc">Flowing midi skirt with elegant pleats and a satin finish.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="accessories">
+        <h2>Accessories</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=400&q=80" alt="Leather Belt">
+                <div class="product-name">Italian Leather Belt</div>
+                <div class="product-price">$150</div>
+                <div class="product-desc">Handcrafted belt made from genuine Italian leather.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Silk Scarf">
+                <div class="product-name">Silk Scarf</div>
+                <div class="product-price">$120</div>
+                <div class="product-desc">Luxurious silk scarf with exclusive Zidi patterns.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Gold Cufflinks">
+                <div class="product-name">Gold Cufflinks</div>
+                <div class="product-price">$390</div>
+                <div class="product-desc">Elegant gold cufflinks engraved with the Zidi logo.</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Zidi Apparel. All rights reserved.
+    </footer>
+</body>
+</html></div>
